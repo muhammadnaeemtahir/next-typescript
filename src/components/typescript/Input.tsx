@@ -8,7 +8,6 @@ type InputProps = {
 
 const Input = React.memo(
     ({ value, placeholder, changeHandler }: InputProps) => {
-        console.log('Input component rendered')
         return (
             <>
                 <input type="text" value={value} placeholder={placeholder} onChange={changeHandler} />
